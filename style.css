@@ -1,0 +1,80 @@
+.hero{
+    background-image: url("img/cover.jpg");
+    background-size: cover;
+    padding: 5px 10px ;
+    height: 600px;
+    border-bottom: 4px solid white;
+}
+
+#tital{
+    padding-top: 50px;
+    
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#03AAB6ff, #93CBF1ff);
+    color: aliceblue;
+    text-shadow: 0 0 8px black;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 ;
+    align-items: center;
+    text-align: center;
+    margin: 20px 40px;
+
+}
+
+#card1:hover{
+    background-image: url("img/Chitrakote.jpg");
+    width: 400px;
+}
+
+#card2:hover{
+    background-image: url("img/Kanger.jpg");
+    width: 400px;
+}
+
+#card3:hover{
+    background-image: url("img/tribe.jpg");
+    width: 400px;
+}
+
+
+
+.img{
+     border: 2px solid white;
+     border-radius: 50%;
+     width: 200px;
+}
+
+.guide{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px #D8A99F;
+    padding: 10px 20px;
+    width: 500px;
+    margin: 30px auto;
+    background-color: #d9b88f;
+    border-radius: 40px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+#guide-img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+#guide-info{
+    text-align: center;
+}
